@@ -1,0 +1,34 @@
+{
+  "name": "soundgether",
+  "version": "0.0.1",
+  "description": "Listen to music, toghether",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "music",
+    "youtube",
+    "collaborative"
+  ],
+  "author": "Amine El Ghayate",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "react": "^15.4",
+    "react-dom": "^15.4.2",
+    "socket.io": "^1.7.2",
+    "youtube-api": "^2.0.6",
+    "youtube-node": "^1.3.0"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2",
+    "babel-brunch": "~6.0",
+    "babel-preset-latest": "^6",
+    "babel-preset-react": "~6.22",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "uglify-js-brunch": "^2"
+  }
+}
